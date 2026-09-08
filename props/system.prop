@@ -45,5 +45,116 @@ debug.hwui.show_overdraw=false
 debug.renderengine.blur_algorithm=kawase2
 debug.hwui.use_triple_buffering=true
 
+# Logging
+persist.log.tag.HWUI=S
+debug.egl.profiler=0
+debug.hwc.otf=0
+debug.hwc_dump_en=0
+debug.sf.dump=0
+debug.sf.ddms=0
+debug.sf.recomputecrop=0
+debug.sf.showupdates=0
+debug.sf.showcpu=0
+debug.sf.showbackground=0
+debug.sf.showfps=0
+debug.enable.gamed=0
+debug.enable.wl_log=0
+debugtool.anrhistory=0
+debug.atrace.tags.enableflags=0
+debug.kill_allocating_task=0
+debug_test=0
+media.stagefright.log-uri=0
+vidc.debug.level=0
+profiler.debugmonitor=false
+profiler.launch=false
+profiler.hung.dumpdobugreport=false
+ro.config.nocheckin=1
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+
+# Battery Logging
+ro.sf.battery_log=0
+ro.sf.battery.log.enabled=0
+
+# IMS Logging
+persist.ims.disableDebugLogs=1
+persist.ims.enableADBLogs=0
+persist.ims.enableDebugLogs=0
+persist.ims.disableQXDMLogs=1
+persist.ims.disableIMSLogs=1
+
+# Broadcom
+persist.brcm.log=none
+persist.brcm.cp_crash=none
+persist.brcm.ap_crash=none
+
+# OEM & Radio
+persist.sys.dun.override=0
+persist.radio.oem_socket=false
+persist.oem.dump=0
+
+# Offline Logging
+persist.sys.offlinelog.kernel=0
+persist.sys.offlinelog.logcat=0
+
+# Service Logging
+persist.service.pcsync.enable=0
+persist.service.lgospd.enable=0
+persist.service.logging.disable=true
+
+# Memory
+libc.debug.malloc=0
+
+# SSR
+persist.vendor.ssr.enable_ramdumps=0
+
+# Kernel
+ro.kernel.qemu.gles=0
+
+# Detailed Log Outputs
+log.resolves=0
+log.pm4=0
+log.pm4mem=0
+log.shaders=0
+log.sc_dev=0
+log.cffdump=0
+log.cffdump_with_ifh=0
+log.cffdump_no_memzero=0
+log.dumpx=0
+log.primitives=0
+log_frame_info=0
+log_mp4dectime=0
+log_posttime=0
+log_profile=0
+log_playerdriver=0
+log_metadatadriver=0
+log_playerengine=0
+log_datapath=0
+log_mp4parsernode=0
+log_basedecnode=0
+log_audiodecnode=0
+log_videodecnode=0
+log_outputnode=0
+log_outputnodeinputport=0
+log_audiooutput=0
+log_surfaceoutput=0
+log_omxmp4=0
+log_ao=0
+log_fps_interval=0
+
+# JNI checks
+ro.kernel.android.checkjni=0
+ro.kernel.checkjni=0
+dalvik.vm.checkjni=false
+
+# RIL / Modem power saving
+ro.ril.disable.power.collapse=0
+ro.ril.power_collapse=1
+
+# Misc
+config.disable_rtt=true
+db.log.slow_query_threshold=-1
+ro.config.small_battery=true
+
 #surface_flinger
 ro.surface_flinger.support_kernel_idle_timer=true
